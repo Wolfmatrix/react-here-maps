@@ -1,0 +1,9 @@
+{
+  "presets": ["@babel/preset-react"],
+  "retainLines": true,
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-react-jsx",
+    "transform-class-properties"
+  ]
+}
