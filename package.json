@@ -1,5 +1,5 @@
 {
-  "name": "@wolf/react-here-map",
+  "name": "@wolf/react-here-maps",
   "version": "0.0.1",
   "description": "Repository for Here Maps component for React JS",
   "main": "build/index.js",
