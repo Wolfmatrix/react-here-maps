@@ -3,11 +3,16 @@
   "version": "0.0.1",
   "description": "Repository for Here Maps component for React JS",
   "main": "build/index.js",
+  "homepage": "https://wolfmatrix-nepal.github.io/react-here-maps-demo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack --mode production",
     "precommit": "pretty-quick --staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wolfmatrix-nepal/react-here-maps.git"
   },
   "author": "Wolfmatrix",
   "license": "MIT",
