@@ -33,16 +33,16 @@ class Marker extends Component {
 
   markerContainer = () => {
     const { H, markerProps, ui } = this.props;
-    return markerProps.map(p => {
-      const icon = p.img && new H.map.Icon(p.img);
+    return markerProps.map(m => {
+      const icon = m.img && new H.map.Icon(m.img);
       const markerObject = new H.map.Marker(
-        { lat: p.lat, lng: p.lng },
+        { lat: m.lat, lng: m.lng },
         {
           icon,
-          data: p.title && this.infoWindow(p.title)
+          data: m.title && this.infoWindow(m.title)
         }
       );
-      if (p.title) {
+      if (m.title) {
         markerObject.addEventListener(
           "tap",
           evt => {
