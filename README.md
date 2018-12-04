@@ -3,8 +3,8 @@
 ### Installation
 First, install library
 ```
-  npm install --save @wolf/react-here-maps
-  yarn add @wolf/react-here-maps
+  npm install --save @wolfmatrix/react-here-maps
+  yarn add @wolfmatrix/react-here-maps
 ```
 ### Usage & Configuration
 #### Map
@@ -15,7 +15,7 @@ First, install library
 #### Example
 
 ```js
-  import { HereMap } from "@wolf/react-here-maps";
+  import { HereMap } from "@wolfmatrix/react-here-maps";
   export default class Map extends Component {
     render() {
       return (
@@ -70,7 +70,7 @@ First, install library
 #### Example
 
 ```js
-  import { HereMap, Circle } from "@wolf/react-here-maps";
+  import { HereMap, Circle } from "@wolfmatrix/react-here-maps";
 
   const circleProps = [
     {
@@ -144,7 +144,7 @@ First, install library
 #### Example
 
 ```js
-  import { HereMap, Marker } from "@wolf/react-here-maps";
+  import { HereMap, Marker } from "@wolfmatrix/react-here-maps";
   const markerProps = [
     {
       lat: 27.710769,
@@ -200,7 +200,7 @@ First, install library
 #### Example
 
 ```js
-  import { HereMap, Marker,Circle } from "@wolf/react-here-maps";
+  import { HereMap, Marker,Circle } from "@wolfmatrix/react-here-maps";
 
   const markerProps = [
     {
