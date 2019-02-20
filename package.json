@@ -1,6 +1,6 @@
 {
   "name": "@wolfmatrix/react-here-maps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Repository for Here Maps component for React JS",
   "main": "build/index.js",
   "homepage": "https://wolfmatrix.github.io/react-here-maps-demo",
